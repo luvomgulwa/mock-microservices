@@ -15,13 +15,13 @@ A Spring Boot-based mock implementation of microservices for testing and develop
 
 ## Microservices Overview
 
-| Service         | Base Path           | Description                          |
-|-----------------|---------------------|--------------------------------------|
-| Products        | `/api/products`     | Product catalog management           |
-| Payments        | `/api/payments`     | Payment processing                   |
-| Orders          | `/api/orders`       | Order management                     |
-| User Profiles   | `/api/user-profiles`| User account information             |
-| Notifications   | `/api/notifications`| User notification system             |
+| Service         | Base Path | Description                          |
+|-----------------|-----------|--------------------------------------|
+| Products        | `/products` | Product catalog management           |
+| Payments        | `/payments` | Payment processing                   |
+| Orders          | `/orders` | Order management                     |
+| User Profiles   | `/user-profiles`| User account information             |
+| Notifications   | `/notifications`| User notification system             |
 
 ## Technologies
 
