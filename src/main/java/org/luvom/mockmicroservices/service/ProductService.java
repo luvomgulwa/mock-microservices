@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.UUID;
 
 @Service
 @Transactional
@@ -28,6 +29,9 @@ public class ProductService {
     }
 
     public Product save(Product product) {
+        if(product.getProductId() == null) {
+            product.setProductId(UUID.randomUUID().toString());
+        }
         return productRepository.save(product);
     }
 
